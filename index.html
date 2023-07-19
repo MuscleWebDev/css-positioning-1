@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+      .home {
+        background-color: white;
+        height: 400px;
+        width: 600px;
+        border: 2px solid black;
+      }
+      .roof {
+        width: 100%;
+        height: 100px;
+        background-color: brown;
+        border-top-left-radius:100px ;
+        border-top-right-radius: 100px;
+      }
+      .walls {
+        height: 300px;
+        width: 540px;
+        background-color: #c389d1;
+        margin-left: 30px;
+        margin-right: 30px;
+        position: relative;
+
+      }
+      .openings {
+        background-color: rgb(0, 0, 0);
+      }
+      .door {
+        height: 200px;
+        width: 100px;
+        position: absolute;
+        left: 100px;
+        top: 100px;
+      
+
+      }
+      .window {
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        right: 100px;
+        top: 50px;
+        
+      }
+      .glass {
+        background-color: white;
+        height: 80%;
+        width: 40%;
+
+      }
+      #glass1 {
+        float: left;
+        margin: 10px 5px 10px 5px;
+      }
+      #glass2 {
+        margin: 10px 5px 10px 5px;
+        float: right;
+      }
+      div {
+        font-style: normal;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+      }
+      h1 {
+        position: relative;
+        top: 30px;
+        margin: 0px;
+      }
+     
+      
+    </style>
+
+</head>
+<body>
+ <div class="home" >
+  <div class="roof" >
+    <h1>My Home</h1>
+  </div>
+  <div class="walls" >
+    <div class="openings door" >
+
+    </div>
+    <div class="openings window" >
+      <div class="glass" id="glass1" >
+
+      </div>
+      <div class="glass" id="glass2" >
+
+      </div>
+      
+
+    </div>
+    
+
+  </div>
+
+ </div>
+
+    
+</body>
+</html>
